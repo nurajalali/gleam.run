@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Climate+Crisis&family=Handlee&family=Inter:wght@400;700&family=Mukta:wght@300;400;500;600;700&display=swap");
+html {
+  font-size: 62.5%;
+  font-family: "Climate Crisis", cursive;
+  font-family: "Handlee", cursive;
+  font-family: "Inter", sans-serif;
+  font-family: "Mukta", sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+.Navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Navbar__Group {
+  display: flex;
+  margin-right: 10rem;
+}
+.Navbar__Group__item {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-right: 3.2rem;
+}
+.Navbar__Group__logo {
+  display: flex;
+  font-size: 1.5rem;
+}
+.Navbar__logo {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.Hero-Wrapper {
+  width: 50vw;
+  display: flex;
+}
+
+.Hero__image {
+  width: 20rem;
+  height: 20rem;
+  margin-right: 20rem;
+}
+
+nav div a {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#logo-title {
+  font-size: 35px;
+}
+
+.row {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  /* gap: 1rem; */
+  /* margin: 1rem 4rem; */
+  /* width: 59rem;
+  align-content: center; */
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#first-p {
+  padding-right: 10rem;
+}
+
+#description-size {
+  font-size: 2.7rem;
+  line-height: 1.2;
+}
+
+#banner-row {
+  display: flex;
+  justify-content: space-around;
+  width: 80vw;
+  /* gap: rem; */
+}

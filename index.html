@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="Navbar">
+        <div class="Navbar__Group">
+          <a class="Navbar__Group__item Navbar__Group__logo" href="#">
+            <span
+              ><img
+                src="lucy-charcoal-2.svg"
+                alt="lucy1"
+                class="Navbar__logo"
+              /> </span
+            >Gleam</a
+          >
+        </div>
+        <div class="Navbar__Group">
+          <a class="Navbar__Group__item" href="#">News</a>
+          <a class="Navbar__Group__item" href="#">Community</a>
+          <a class="Navbar__Group__item" href="#">Sponsor</a>
+        </div>
+        <div class="Navbar__Group">
+          <a class="Navbar__Group__item" href="#">Documentation</a>
+          <a class="Navbar__Group__item" href="#">Github</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="Hero">
+        <div class="Hero-Wrapper">
+          <img src="lucy-charcoal-2.svg" alt="setare" class="Hero__image" />
+          <div class="banner">
+            <p id="description-size">
+              <strong>Gleam</strong> is a <strong>friendly</strong> language for
+              building <strong>type-safe</strong> systems that
+              <strong>scale!</strong>
+            </p>
+            <button>Getting Started</button>
+          </div>
+        </div>
+      </section>
+      <section class="row">
+        <p id="first-p">
+          The power of a type system, the expressiveness of functional
+          programming, and the reliability of the highly concurrent, fault
+          tolerant Erlang runtime, with a familiar and modern syntax.
+        </p>
+        <p>import gleam/io pub fn main() { io.println("hello, friend!") }</p>
+      </section>
+    </main>
+  </body>
+</html>
